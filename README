@@ -1,0 +1,20 @@
+@@@ Setting up the webpack @@@
+#1: npm init -y
+// creates a local repository
+#2: git init
+#3: npm install node
+#4: npm install -D webpack
+#5: npm install express
+#6: go on index.html and do "!, enter"
+#7: write "hello world" on your <p> tag
+
+
+#8: create a server folder and create a file called "server.js"
+#9: go to package.json and do "type": "module",
+#10: import express from 'express';
+#11: back to server.js: const path = require('path');
+#12: const PORT = 3000;
+const app = express();
+
+#13:
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+</head>
+<body>
+    <p>hi i'm phil</p>
+    <div>
+        <!-- create -->
+        <form method="post" action="/list">
+            <label for="name">Create A Task: </label><br>
+            <input type="text" id="c" name="name" 
+                value="enter task here"><br>
+            <input type="submit" value="Create Task">
+        </form>
+        
+        <!-- read -->
+        <form method="get" action="/list">
+            <label for="get">Read Tasks: </label><br>
+            <input type="text" id="r" name="read" 
+                value="Show me the list of tasks"><br>
+            <input type="submit" value="Show Tasks">
+        </form>
+    </div>
+</body>
+</html>
